@@ -1,8 +1,8 @@
 <?php
-  $host="localhost";
-  $database="test";
+$host="localhost";
+  $database="qonyrau";
   $user="root";
-  $pswd="ansar123";
+  $pswd="d52b8fd945026d4d762e5fddb7d31a23423b5b25aa34bb76";
 
   $conn = mysqli_connect($host, $user, $pswd) or die("aa");
   mysqli_select_db($conn, "test") or die("nn");
