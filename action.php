@@ -6,7 +6,7 @@
   $pswd="d52b8fd945026d4d762e5fddb7d31a23423b5b25aa34bb76";
 
   $conn = mysqli_connect($host, $user, $pswd) or die("aa");
-  mysqli_select_db($conn, "test") or die("nn");
+  mysqli_select_db($conn, "qonyrau") or die("nn");
 	$query = mysqli_query($conn, "select * from keste where className = '".$classid."'");
 	$row = mysqli_fetch_array($query);
 	if (empty($row)) {
