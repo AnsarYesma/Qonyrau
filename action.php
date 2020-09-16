@@ -55,7 +55,7 @@
 	<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
 	<title>Keste</title>
 	<link rel="stylesheet" media="only screen and (max-width: 600px)" href="stylesheets/mobile.css">
-	<link rel="shortcut icon" href="photo_2020-09-16 22.37.17.jpeg" type="image/jpeg">
+	<link rel="shortcut icon" href="icon.jpg">
 	<link rel="stylesheet" media="only screen and (min-width: 700px)" href="stylesheets/desktop.css">
   <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" href="stylesheets/today.css">

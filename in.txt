@@ -1,43 +1,10 @@
-7
-Literature
-Literature
-Chemistry
-Chemisrty
-Algebra
-Algebra
-Biology
-8
-Geography
-Kazakh
-Physics
-Physics
-W. History
-Infromatics
-Geometry
-Geometry
-7
-Phys. Ed
-Phys. Ed
-Russian
-Russian
-English
-English
-Algebra
-7
-Physics
-Physics
-K. History
-K. History
-Algebra
-Algebra
-Self Kn.
-9
-Informatics
-Informatics
-Geometry
-Geometry
-Physics
-Russian
-Fund. of Law
-English
-English
+1
+a
+1
+a
+1
+a
+1
+a
+1
+a
