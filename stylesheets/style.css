@@ -1,0 +1,282 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+  color: rgb(188, 0, 22);
+}
+
+p, ul{
+  font-size: 15px;
+  font-family: "Avenir Black";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(188, 0, 22);
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+  font-family: "Futura", sans-serif;
+  background-color: #e3e9f7;
+	color: black;
+}
+
+#upper {
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+		height: auto;
+		width: 90vw;
+		margin: 1.25vh 5vw 0;
+  	border-radius: 25px;
+    font-family: Futura, sans-serif;
+    text-align: center;
+		box-shadow: 3px 3px 6px rgba(70, 70, 70, 0.12),
+	             -3px -3px 6px rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    text-shadow: #de0913 1px 1px 0, #de0913 -1px -1px 0,
+                 #de0913 -1px 1px 0, #de0913 1px -1px 0;
+		color: #ffe399;
+}
+
+
+.footer{
+	height: 20vh;
+	display: flex;
+  color: white;
+  background-color: #000;
+}
+
+.footer-author{
+  font-size: 3em;
+	margin: auto;
+}
+
+.someSection {
+	padding-top: 5vh;
+	padding: 5vh 0 0 10%;
+  margin-bottom: 5vh;
+}
+
+.donation {
+	width: auto;
+	height: 227px;
+	border-radius: 1vw;
+	margin-bottom: 2vw;
+  border: 0.1vw solid #c5b0f2;
+	box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
+             -3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+.someHeading {
+	opacity: 1;
+	font-size: 70px;
+	font-weight: 500;
+	font-family: 'Yeseva One';
+	margin-bottom: 2vw;
+}
+
+.timerButton {
+  border-radius: 50%;
+  background: #e3e9f7;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  box-shadow: none;
+  font-family: 'Futura', sans-serif;
+  font-size: 20px;
+  border: 2px solid #e3e9f7;
+	box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
+              -3px -3px 6px rgba(255, 255, 255, 0.7);
+	color: black;
+  display: inline-block;
+}
+
+.customTimer {
+  height: 50px;
+  border-radius: 25px;
+  width: 410px;
+  margin: 5px 5px 0;
+  line-height: 50px;
+  display: inline-block;
+  float: left;
+  box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
+              -3px -3px 6px rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+.resetButton {
+	border: 2px solid rgb(188, 0, 22);
+}
+
+.centerFlex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  /* padding-top: 100px; */
+}
+
+form {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: auto;
+  padding-top: 50px;
+  width: 400px;
+  border-radius: 15px;
+  /* border: 5px solid red; */
+  padding-left: 50px;
+  box-shadow:  inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+              inset -3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+
+.in-shadow {
+  border-radius: 15px;
+  box-shadow:  inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+              inset -3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+
+button {
+  -webkit-appearance: none;
+       -moz-appearance: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
+              -3px -3px 6px rgba(255, 255, 255, 0.7);
+  font-family: Futura, sans-serif;
+  border: 2px solid #e3e9f7;
+  border-radius: 5px;
+  background: #e3e9f7;
+	color: black;
+}
+
+#customButton {
+	border: 2px solid green;
+}
+
+.customTimer {
+  box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
+              -3px -3px 6px rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-family: Futura, sans-serif;
+  box-sizing: border-box;
+  background-color: #e3e9f7;
+  box-shadow: inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+            inset -3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-family: Futura, sans-serif;
+  box-sizing: border-box;
+  background-color: #e3e9f7;
+  box-shadow: inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+            inset -3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #c5b0f2;
+  padding: 4px 14px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #c5b0f2;
+  padding: 4px 14px;
+}
+
+#circleTimer {
+  stroke-dasharray: 630;
+  stroke-dashoffset: 630;
+}
+
+#shadowBox {
+  font-size: 50px;
+  font-family: Maison Mono, monospace;
+  text-align: center;
+  line-height: 215px;
+  height: 215px;
+  width: 215px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 42.5px;
+  left: 42.5px;
+  box-shadow:  10px 10px 15px rgba(70, 70, 70, 0.12),
+              -10px -10px 15px rgba(255, 255, 255, 0.5);
+}
+
+.press {
+	border: 1px solid #c5b0f2;
+	box-shadow: inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+            inset -3px -3px 6px rgba(255, 255, 255, 0.7),
+            3px 3px 6px rgba(70, 70, 70, 0.12),
+            -3px -3px 6px rgba(255, 255, 255, 0.7);
+	color: #6259c2;
+}
+
+.pressReset {
+  box-shadow: inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+            inset -3px -3px 6px rgba(255, 255, 255, 0.7),
+            3px 3px 6px rgba(70, 70, 70, 0.12),
+            -3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+
+@font-face {
+    font-family: "Avenir-Black";
+    src: url(/Users/ansar/Downloads/Avenir-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: "Futura-Medium";
+  src: url('FuturaMediumC.eot');
+  src: url('FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+  url('FuturaMediumC.woff') format('woff'),
+  url('FuturaMediumC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
