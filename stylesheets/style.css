@@ -24,7 +24,7 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(188, 0, 22);
+  color: ;
 }
 
 body {
@@ -63,15 +63,17 @@ body {
 
 
 .footer{
+  padding: 20px;
 	height: 20vh;
-	display: flex;
   color: white;
   background-color: #000;
+  text-align: center;
 }
 
 .footer-author{
+  display: block;
   font-size: 3em;
-	margin: auto;
+  width: 100%;
 }
 
 .someSection {
