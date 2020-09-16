@@ -1,12 +1,6 @@
 <?php
+	include "connect.php";
 	$classid = $_GET['class'];
-  $host="localhost";
-  $database="qonyrau";
-  $user="root";
-  $pswd="d52b8fd945026d4d762e5fddb7d31a23423b5b25aa34bb76";
-
-  $conn = mysqli_connect($host, $user, $pswd) or die("aa");
-  mysqli_select_db($conn, "qonyrau") or die("nn");
 	$query = mysqli_query($conn, "select * from keste where className = '".$classid."'");
 	$row = mysqli_fetch_array($query);
 	if (empty($row)) {
@@ -34,7 +28,7 @@
 	$timetable[8] = 835;
 	$timetable[9] = 870;
 
-	$dayOfWeek = 1;
+	$dayOfWeek = date('w');
 
 	// for ( $i = 1; $i <= 5; $i++ ) {
 	// 	$lessCnt[$i] = fgets($myRead);
@@ -58,9 +52,10 @@
 ?>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
 	<title>Keste</title>
 	<link rel="stylesheet" media="only screen and (max-width: 600px)" href="stylesheets/mobile.css">
+	<link rel="shortcut icon" href="photo_2020-09-16 22.37.17.jpeg" type="image/jpeg">
 	<link rel="stylesheet" media="only screen and (min-width: 700px)" href="stylesheets/desktop.css">
   <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" href="stylesheets/today.css">
@@ -79,7 +74,8 @@
 		</div>
 	</header>
 	<a href="https://vk.com/nphmsdebateclub"><div class="headerMenu">
-		<img src="debate.png" style="display: inline; margin-top: 1vh; margin-right: 1vh; height: 5.5vh; width: 5.5vh;">Join Fizmat Speech & Debate Club!
+		<img src="debate.png" style="display: inline; margin-right: 1vh; height: 7.5vh; width: 7.5vh;">
+		<span>Join Fizmat Speech & Debate Club!</span>
 	</div></a>
 	<section class="upperDiv">
 		<div class="today">
@@ -93,7 +89,7 @@
 				<?php
 					$query = mysqli_query($conn, "select * from keste where className = '".$classid."' and weekDay = ". $dayOfWeek .";");
 					while ($row = mysqli_fetch_array($query)) {
-						echo '<p id="ls'.$row['lessId'].'">'.$row['lessName'].'</p>
+						echo '<p id="ls'.$row['lessId'].'" style ="font-family: Futura;" >'.$row['lessName'].'</p>
 ';
 					}
 				 ?>
@@ -150,7 +146,7 @@
 				<div>
 				  <div class="customTimer">
 				    <div style="float: left; height: 50px; width: 50px; margin-right: 10px; font-size: 20px; text-align: center; line-height: 50px; cursor: default;">✏️</div
-				    ><div style="float: left; width: 200px; height: 50px; font-size: 20px;"> <input id="pencilInput" style="margin: 10px 0;" type="text" value="Custom duration(minutes)"> </div>
+				    ><div style="float: left; width: 200px; height: 50px; font-size: 20px;"> <input id="pencilInput" style="margin: 10px 0;" type="text" placeholder="Custom duration(minutes)"> </div>
 				  </div><button id="customButton" class="timerButton" onmousedown='customButton.classList.add("press"); customTimerSet();' onmouseup='customButton.classList.remove("press");'>⏰</button>
 				</div>
 			</div>
@@ -176,6 +172,8 @@
 	</div>
   <footer class = "footer">
     	<h1 class = "footer-author">Ansar × 2020</h1>
+			<br>
+			<p><a href="https://vk.com/qonyrau">Вконтакте</a> | <a href="mailto:ansar.yesmukhanov23@fizmat.kz">Почта</a> | <a href="tel:+77014414955">Телефон</a> </p>
 	</footer>
 	<script type="text/javascript">
 		<?php include "scripts/script.php" ?>
