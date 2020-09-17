@@ -57,7 +57,7 @@
 	<link rel="stylesheet" media="only screen" href="stylesheets/mobile.css">
 	<link rel="stylesheet" media="only screen and (min-aspect-ratio: 1)" href="stylesheets/desktop.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
-	<link rel="shortcut icon" href="icon.png">
+	<link rel="shortcut icon" href="icon.png" type="image/png">
 
 
   <link rel="stylesheet" href="stylesheets/today.css">
