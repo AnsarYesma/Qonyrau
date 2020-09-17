@@ -1,27 +1,22 @@
 <?php
   include "connect.php";
   $classid = $_POST['name'];
-  $data = $_POST['data'];
-  $myread = fopen("/in.txt", "w") or die("не удалось открыть файл");
-	fwrite($myread, $data);
-  // echo $data;
-  fclose($myread);
-  $myread = fopen("/in.txt", "r") or die("не удалось открыть файл2");
+  $string = $_POST['data'];
+  $data = explode('\n', $string);
+  $k = 0;
   for ( $i = 1; $i <= 5; $i++ ) {
-     $lsCnt = fgets($myread);
-     // $lsCnt = substr($lsCnt, 0, -1);
-     echo $lsCnt." ";
-     // $query = mysqli_query($conn, "insert lessCnt(className, weekDay, count) values('". $classid ."', ". $i .", ". $lsCnt .");");
-     // echo "insert lessCnt(className, weekDay, count) values('". $classid ."', ". $i .", ". $lsCnt ."); \n";
+     $lsCnt = $data[$k];
+     $k++;
      for ( $j = 1; $j <= $lsCnt; $j++ ) {
-       $lsName = fgets($myread);
-       echo $lsName." ";
+       $lsName = $data[$k];
+       $k++;
+       // echo $lsName." ";
        // $lsName = substr($lsName, 0, -1);
        $query = mysqli_query($conn, "insert keste(className, weekDay, lessId, lessName) values('". $classid ."', ". $i .", ". $j .", '". $lsName ."');");
-       // echo $lsName . " ";
+       // echo "insert keste(className, weekDay, lessId, lessName) values('". $classid ."', ". $i .", ". $j .", '". $lsName ."');";
      }
    }
-   // header ('Location: action.php?class='.$classid .'');
-   // exit();
-   fclose($myread);
+   header ('Location: action.php?class='.$classid .'');
+   exit();
+   // fclose($myread);
 ?>
