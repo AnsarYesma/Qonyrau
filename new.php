@@ -18,7 +18,7 @@
        echo "insert keste(className, weekDay, lessId, lessName) values('". $classid ."', ". $i .", ". $j .", '". $lsName ."'); \n";
      }
    }
-   // header ('Location: action.php?class='.$classid .'');
-   // exit();
+   header ('Location: action.php?class='.$classid .'');
+   exit();
    // fclose($myread);
 ?>
