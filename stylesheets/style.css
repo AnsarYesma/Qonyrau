@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-weight: normal;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 a {
@@ -16,7 +17,7 @@ a:link {
 
 p, ul{
   font-size: 15px;
-  font-family: "Avenir Black";
+  /* font-family: "Avenir Black"; */
 }
 
 a:hover {
@@ -30,7 +31,7 @@ a:visited {
 body {
 	width: 100vw;
 	height: 100vh;
-  font-family: "Futura", sans-serif;
+  /* font-family: "Futura", sans-serif; */
   background-color: #e3e9f7;
 	color: black;
 }
@@ -51,7 +52,7 @@ body {
 		width: 90vw;
 		margin: 1.25vh 5vw 0;
   	border-radius: 25px;
-    font-family: Futura, sans-serif;
+    /* font-family: Futura, sans-serif; */
     text-align: center;
 		box-shadow: 3px 3px 6px rgba(70, 70, 70, 0.12),
 	             -3px -3px 6px rgba(255, 255, 255, 0.7);
@@ -106,7 +107,7 @@ body {
   width: 50px;
   margin: 5px;
   box-shadow: none;
-  font-family: 'Futura', sans-serif;
+  /* font-family: 'Futura', sans-serif; */
   font-size: 20px;
   border: 2px solid #e3e9f7;
 	box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
@@ -167,7 +168,7 @@ button {
   border-radius: 0;
   box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
               -3px -3px 6px rgba(255, 255, 255, 0.7);
-  font-family: Futura, sans-serif;
+  /* font-family: Futura, sans-serif; */
   border: 2px solid #e3e9f7;
   border-radius: 5px;
   background: #e3e9f7;
@@ -195,7 +196,7 @@ input {
   box-shadow: none;
   border-radius: 15px;
   padding-left: 15px;
-  font-family: Futura, sans-serif;
+  /* font-family: Futura, sans-serif; */
   box-sizing: border-box;
   background-color: #e3e9f7;
   box-shadow: inset 3px 3px 6px rgba(70, 70, 70, 0.12),
@@ -211,7 +212,7 @@ textarea {
   box-shadow: none;
   border-radius: 15px;
   padding: 5px 15px;
-  font-family: Futura, sans-serif;
+  /* font-family: Futura, sans-serif; */
   box-sizing: border-box;
   background-color: #e3e9f7;
   box-shadow: inset 3px 3px 6px rgba(70, 70, 70, 0.12),
