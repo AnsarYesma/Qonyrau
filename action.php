@@ -54,8 +54,8 @@
 <head>
 	<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
 	<title>Keste</title>
-	<link rel="stylesheet" media="only screen and (max-aspect-ratio: 1/1)" href="stylesheets/mobile.css">
 	<link rel="stylesheet" href="stylesheets/desktop.css">
+	<link rel="stylesheet" media="only screen and (max-aspect-ratio: 1/1)" href="stylesheets/mobile.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="shortcut icon" href="icon2.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
