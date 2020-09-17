@@ -14,7 +14,7 @@
        $lsName = fgets($myread);
        // $lsName = substr($lsName, 0, -1);
        $query = mysqli_query($conn, "insert keste(className, weekDay, lessId, lessName) values('". $classid ."', ". $i .", ". $j .", '". $lsName ."');");
-       echo "insert keste(className, weekDay, lessId, lessName) values('". $classid ."', ". $i .", ". $j .", '". $lsName ."'); \n";
+       echo $lsName . " ";
      }
    }
    // header ('Location: action.php?class='.$classid .'');
