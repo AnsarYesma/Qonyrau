@@ -55,15 +55,14 @@
 	<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
 	<title>Keste</title>
 	<link rel="stylesheet" media="only screen" href="stylesheets/mobile.css">
-	<link rel="shortcut icon" href="icon.jpg">
 	<link rel="stylesheet" media="only screen and (min-aspect-ratio: 1)" href="stylesheets/desktop.css">
-  <link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="shortcut icon" href="icon.png">
+
+
   <link rel="stylesheet" href="stylesheets/today.css">
-  <!-- <link rel="stylesheet" href="stylesheets/head.css"> -->
 	<link rel="script" type="text/javascript" href="scripts/script.php">
 	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="stylesheets/lightmode.css"> -->
-  <!-- <link rel="icon" type="image" href="images/interface.png"> -->
 </head>
 
 <body>
