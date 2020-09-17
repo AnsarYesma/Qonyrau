@@ -2,11 +2,11 @@
   include "connect.php";
   $classid = $_POST['name'];
   $data = $_POST['data'];
-  $myread = fopen('in.txt', 'w+');
+  $myread = fopen('in.txt', 'w') or die("не удалось открыть файл");
 	fwrite($myread, $data);
   // echo $data;
   fclose($myread);
-  $myread = fopen('in.txt', 'r');
+  $myread = fopen('in.txt', 'r') or die("не удалось открыть файл2");
   for ( $i = 1; $i <= 5; $i++ ) {
      $lsCnt = fgets($myread);
      // $lsCnt = substr($lsCnt, 0, -1);
