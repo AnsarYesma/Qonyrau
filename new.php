@@ -5,6 +5,7 @@
   $myread = fopen('in.txt', 'w+');
 	fwrite($myread, $data);
   echo $data;
+  fseek($myread, 0);
   // $myread = fopen('in.txt', 'r');
   for ( $i = 1; $i <= 5; $i++ ) {
      $lsCnt = fgets($myread);
