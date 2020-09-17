@@ -2,9 +2,10 @@
   include "connect.php";
   $classid = $_POST['name'];
   $data = $_POST['data'];
-  $myread = fopen('in.txt', 'w');
+  $myread = fopen('in.txt', 'w+');
 	fwrite($myread, $data);
-  $myread = fopen('in.txt', 'r');
+  echo $data;
+  // $myread = fopen('in.txt', 'r');
   for ( $i = 1; $i <= 5; $i++ ) {
      $lsCnt = fgets($myread);
      // $lsCnt = substr($lsCnt, 0, -1);
