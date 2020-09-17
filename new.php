@@ -5,8 +5,8 @@
   $myread = fopen('in.txt', 'w+');
 	fwrite($myread, $data);
   // echo $data;
-  fseek($myread, 0);
-  // $myread = fopen('in.txt', 'r');
+  fclose($myread);
+  $myread = fopen('in.txt', 'r');
   for ( $i = 1; $i <= 5; $i++ ) {
      $lsCnt = fgets($myread);
      // $lsCnt = substr($lsCnt, 0, -1);
@@ -23,4 +23,5 @@
    }
    // header ('Location: action.php?class='.$classid .'');
    // exit();
+   fclose($myread);
 ?>
