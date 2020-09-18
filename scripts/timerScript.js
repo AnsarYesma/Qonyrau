@@ -66,7 +66,7 @@ var cycle = setInterval( function () {
     timerReset();
     timerTime = 0;
     isReset = 1;
-    let push = new Notification('Time is up!', {icon: "/icon2.png"})
+    let push = new Notification('Time is up!', {icon: "../icon2.png"})
     return;
   }
   circleTimer.style.strokeDashoffset = 630 - (((goalTime - timerTime)+1)*(630/goalTime));
