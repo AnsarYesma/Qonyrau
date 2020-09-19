@@ -16,7 +16,7 @@ a:link {
 }
 
 p, ul{
-	font-size: 15px;
+	font-size: 1em;
 }
 
 a:hover {
@@ -82,7 +82,8 @@ body {
 
 .donation {
 	/* width: 100%; */
-	height: 227px;
+	height: auto;
+	min-height: 227px;
 	border-radius: 1vw;
 	/* margin-bottom: 2vw; */
 	border: 0.1vw solid #c5b0f2;
@@ -92,7 +93,7 @@ body {
 
 .someHeading {
 	opacity: 1;
-	font-size: 70px;
+	font-size: 3em;
 	font-weight: 500;
 	font-family: 'Yeseva One';
 	margin-bottom: 2vw;
@@ -106,7 +107,7 @@ body {
 	margin: 5px;
 	box-shadow: none;
 	/* font-family: 'Futura', sans-serif; */
-	font-size: 20px;
+	font-size: 1em;
 	border: 2px solid #e3e9f7;
 	box-shadow:  3px 3px 6px rgba(70, 70, 70, 0.12),
 			-3px -3px 6px rgba(255, 255, 255, 0.7);
@@ -235,7 +236,7 @@ input:focus {
 }
 
 #shadowBox {
-	font-size: 50px;
+	font-size: 3em;
 	font-family: Maison Mono, monospace;
 	text-align: center;
 	line-height: 215px;

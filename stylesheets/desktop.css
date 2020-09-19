@@ -69,7 +69,7 @@
 .card:hover .subMenu {
 	visibility: visible;
 	opacity: 1;
-	transform: translateX(13vw);
+	transform: translateX(15vw);
 }
 
 .card:hover {

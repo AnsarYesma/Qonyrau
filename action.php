@@ -104,7 +104,7 @@ $dayOfWeek = date('w');
 		<?php for ($i = 1; $i <= 5; ++$i) { ?>
 			<div class="wrapper">
 				<div class="card">
-					<h3 class="cardTitle"><?php $weekNames[$i] ?></h3>
+					<h3 class="cardTitle"><?php echo $weekNames[$i]; ?></h3>
 					<div class="cardField">
 						<div class="mainMenu">
 							<?php
@@ -145,7 +145,7 @@ $dayOfWeek = date('w');
 					<div class="customTimer">
 						<div style="float: left; height: 50px; width: 50px; margin-right: 10px; font-size: 20px; text-align: center; line-height: 50px; cursor: default;">✏️</div>
 						<div style="float: left; width: 200px; height: 50px; font-size: 20px;"> <input id="pencilInput" style="margin: 10px 0;" type="text" placeholder="Custom duration(minutes)"> </div>
-					</div><button id="customButton" class="timerButton" onmousedown='customButton.classList.add("press"); customTimerSet();' onmouseup='customButton.classList.remove("press");'>⏰</button>
+					</div><button type="submit" id="customButton" class="timerButton" onmousedown='customButton.classList.add("press"); customTimerSet();' onmouseup='customButton.classList.remove("press");'>⏰</button>
 				</div>
 			</div>
 			<div style="position: relative;">
