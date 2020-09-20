@@ -166,9 +166,9 @@ $dayOfWeek = date('w');
 			</div>
 		</div>
 	</section>
-	<section class="someSection">
+	<div class="someSection dsk">
 		<div class="tryDesk">💻  Try Qonyrau on your desktop!</div>
-	</section>
+	</div>
 	<a id="donateSection"></a>
 	<div class="someSection">
 		<h1 class="someHeading">Donate me!</h1>
