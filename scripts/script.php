@@ -68,7 +68,7 @@ if (weekDay == 6 || weekDay == 0) {
 	 for (let  i = 1; i <= cntLess; ++i) {
 		 if (time == start[i] && !flag) {
 			 flag = 1;
-			 if (notif)
+			 if (notif == 1)
 			 	let push = new Notification(less[i] + ' have started!', {icon: "icon2.png"});
 		 }
 		 if (time == start[i] + dur && flag) {
@@ -79,12 +79,12 @@ if (weekDay == 6 || weekDay == 0) {
 				 	str = str + ' too.';
 				else
 					str = str + '.';
-					if (notif)
+					if (notif == 1)
 				 		let push = new Notification('Lesson is over', {
 					 		body: str, icon: "icon2.png"
 				 		});
 			 } else {
-				 if (notif)
+				 if (notif == 1)
 				 	let push = new Notification('That\'s all for today!', {icon: "icon2.png"});
 			 }
 		 }
