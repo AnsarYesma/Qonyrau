@@ -18,7 +18,7 @@
 			Enter your class number:
 			<input style="font-size: 30px; height: 50px; width: 300px; margin: 30px 0;" type="text" name="class" value="9c">
 			<button type="submit" style="font-size: 20px; height: 30px; margin: 15px 0; width: 300px; border-radius: 15px;">Go</button>
-      <p style="margin-bottom: 15px;"><a href="#">Help</a></p>
+      <p style="margin-bottom: 15px;"><a href="help.html">Help</a></p>
 		</form>
 	</section>
 </body>
