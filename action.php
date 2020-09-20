@@ -85,7 +85,9 @@ $dayOfWeek = date('w');
 			<div class="leftSide">
 				<h1 id="todayWeek" style="font-family: Yeseva One;"></h1>
 				<h2 id="timer"></h2>
-				<button type="button" onclick="goto('fullSchedule')">Schedule</button>
+				<button type="button" onclick="goto('fullSchedule')">
+					<font>Schedule
+				</button>
 			</div>
 			<div id="lineToday"></div>
 			<div class="rightSide" id="rs">
@@ -167,7 +169,7 @@ $dayOfWeek = date('w');
 		</div>
 	</section>
 	<div class="someSection dsk">
-		<div class="tryDesk">💻  Try Qonyrau on your desktop!</div>
+		<div class="tryDesk">💻 Try Qonyrau on your desktop!</div>
 	</div>
 	<a id="donateSection"></a>
 	<div class="someSection">
