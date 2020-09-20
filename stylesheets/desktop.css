@@ -27,7 +27,7 @@
 	border-radius: calc(1vw - 2px);
 	transition: width 1s;
 	background-color: #e3e9f7;
-  font-size: 2em;
+  font-size: 1.2em;
   /* border: 1px solid #c5b0f2; */
 }
 
@@ -55,7 +55,11 @@
 }
 
 .mainMenu {
-  position: absolute;
+  /* position: absolute; */
+  	white-space: nowrap;
+	max-width: 75%;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .subMenu {
