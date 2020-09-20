@@ -172,10 +172,10 @@ $dayOfWeek = date('w');
 		<div class="tryDesk">💻 Try Qonyrau on your desktop!</div>
 	</div>
 	<a id="donateSection"></a>
-	<!-- <div class="someSection">
+	<div class="someSection">
 		<h1 class="someHeading">Donate me!</h1>
 		<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=buyer&targets=&targets-hint=%D0%9D%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5&default-sum=100&button-text=13&mail=on&hint=&successURL=&quickpay=shop&account=4100115137685017" class="donation" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-	</div> -->
+	</div>
 	<footer class="footer">
 		<h1 class="footer-author">Ansar × 2020</h1>
 		<p><a href="contact.html">✉️Contact</a>|<a href="help.html">❓Help</a></p>
