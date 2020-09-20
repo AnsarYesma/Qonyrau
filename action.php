@@ -86,7 +86,6 @@ $dayOfWeek = date('w');
 				<h1 id="todayWeek" style="font-family: Yeseva One;"></h1>
 				<h2 id="timer"></h2>
 				<button type="button" onclick="goto('fullSchedule')">
-					<font>Schedule
 				</button>
 			</div>
 			<div id="lineToday"></div>
