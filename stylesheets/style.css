@@ -272,7 +272,7 @@ input:focus {
 
 @font-face {
 	font-family: "Avenir-Black";
-	src: url(https://qonyrau.kz/Avenir-Black.ttf);
+	src: url('https://qonyrau.kz/Avenir-Black.ttf');
 	font-style: normal;
 	font-weight: normal;
 }
