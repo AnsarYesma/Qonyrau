@@ -28,6 +28,7 @@ $timetable[7] = 800;
 $timetable[8] = 835;
 $timetable[9] = 870;
 
+// $dayOfWeek = 1;
 $dayOfWeek = date('w');
 
 // for ( $i = 1; $i <= 5; $i++ ) {
@@ -70,7 +71,7 @@ $dayOfWeek = date('w');
 	<header style="height: 5vh; margin-top: 1.25vh; padding: 0 5vw;">
 		<div id="upper">
 			<span style='font-size: 30px; display: inline-block; width: auto; font-family: "Avenir Black"; background: linear-gradient(30deg, rgb(188, 0, 22), #6259c2 60%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Qonyrau</span>
-			<a href="index.php" style='line-height: 30px;background: linear-gradient(30deg, #6259c2, rgb(188, 0, 22)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Change class</a>
+			<span style='line-height: 30px;background: linear-gradient(30deg, #6259c2, rgb(188, 0, 22)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'><a href="https://classroom.google.com/u/0/h">Courses</a> | <a href="https://classroom.google.com/u/0/a/not-turned-in/all">Homework</a> | <a href="index.php">Change class</a></span>
 		</div>
 	</header>
 	<a href="https://vk.com/nphmsdebateclub">
@@ -102,7 +103,7 @@ $dayOfWeek = date('w');
 	</div>
 	<section class="content">
 		<?php for ($i = 1; $i <= 5; ++$i) { ?>
-			<div class="wrapper">
+			<div class="wrapper <?php if ($i == $dayOfWeek) echo "colorDay"; ?>">
 				<div class="card">
 					<h3 class="cardTitle"><?php echo $weekNames[$i]; ?></h3>
 					<div class="cardField">
@@ -164,6 +165,9 @@ $dayOfWeek = date('w');
 				</svg>
 			</div>
 		</div>
+	</section>
+	<section class="someSection">
+		<div class="tryDesk">💻  Try Qonyrau on your desktop!</div>
 	</section>
 	<a id="donateSection"></a>
 	<div class="someSection">

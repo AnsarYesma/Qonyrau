@@ -235,6 +235,10 @@ input:focus {
 	stroke-dashoffset: 630;
 }
 
+.colorDay {
+	background-image: linear-gradient(135deg, #ffe399, rgb(188, 0, 22) 50%);
+}
+
 #shadowBox {
 	font-size: 3em;
 	font-family: Maison Mono, monospace;

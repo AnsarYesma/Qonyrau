@@ -2,6 +2,10 @@
   display: block;
 }
 
+.tryDesk {
+	display: none;
+}
+
 .headerMenu {
 	font-size: 5.5vh;
 	line-height: 7.5vh;
@@ -21,13 +25,13 @@
 	width: 20vw;
 	min-height: 40vh;
 	height: auto;
-  padding-right: 2.5vw;
+	padding-right: 2.5vw;
 	padding-top: 2vw;
 	padding-left: 2.5vw;
 	border-radius: calc(1vw - 2px);
 	transition: width 1s;
 	background-color: #e3e9f7;
-  font-size: 1.2em;
+	font-size: 1.2em;
   /* border: 1px solid #c5b0f2; */
 }
 
