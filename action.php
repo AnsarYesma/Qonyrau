@@ -70,10 +70,10 @@ $dayOfWeek = date('w');
 	<header style="height: 5vh; margin-top: 1.25vh; padding: 0 5vw;">
 		<div id="upper">
 			<span style='font-size: 30px; display: inline-block; width: auto; font-family: "Avenir Black"; background: linear-gradient(30deg, rgb(188, 0, 22), #6259c2 60%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Qonyrau</span>
-			<span style='line-height: 30px;background: linear-gradient(30deg, #6259c2, rgb(188, 0, 22)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'><a href="https://classroom.google.com/u/0/h">Courses</a> | <a href="https://classroom.google.com/u/0/a/not-turned-in/all">Homework</a> | <a href="index.php">Change class</a></span>
+			<span style='line-height: 30px;background: linear-gradient(30deg, #6259c2, rgb(188, 0, 22)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;' ><a href="https://classroom.google.com/u/0/h" target="_blank">Courses</a> | <a href="https://classroom.google.com/u/0/a/not-turned-in/all" target="_blank">Homework</a> | <a href="index.php">Change class</a></span>
 		</div>
 	</header>
-	<a href="https://vk.com/nphmsdebateclub">
+	<a href="https://vk.com/nphmsdebateclub" target="_blank">
 		<div class="headerMenu">
 			<img src="debate.png" style="display: inline; margin-right: 1vh; height: 7.5vh; width: 7.5vh;">
 			<span>Join Fizmat Speech & Debate Club!</span>
