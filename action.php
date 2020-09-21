@@ -93,7 +93,7 @@ $dayOfWeek = date('w');
 				<?php
 				$query = mysqli_query($conn, "select * from keste where className = '" . $classid . "' and weekDay = " . $dayOfWeek . ";");
 				while ($row = mysqli_fetch_array($query)) {
-					echo "<p id=\"ls" . $row['lessId'] . "style = \"font-family: Futura;\" >" . $row['lessName'] . "</p>\n";
+					echo "<p id=\"ls" . $row['lessId'] . "\">" . $row['lessName'] . "</p>\n";
 				}
 				?>
 			</div>
