@@ -270,6 +270,10 @@ input:focus {
 				-3px -3px 6px rgba(255, 255, 255, 0.7);
 }
 
+form ::placeholder {
+	font-size: 15px;
+}
+
 @font-face {
 	font-family: "Avenir-Black";
 	src: url('https://qonyrau.kz/Avenir-Black.ttf');

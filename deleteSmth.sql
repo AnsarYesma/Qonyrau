@@ -1,4 +1,4 @@
-delete from qonyrau.keste where className = '7 B';
+delete from qonyrau.keste where className = '9e';
 
 
 TRUNCATE TABLE qonyrau.keste;

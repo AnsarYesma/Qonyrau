@@ -64,6 +64,20 @@ $dayOfWeek = date('w');
 
 	<link rel="stylesheet" href="stylesheets/today.css">
 	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(67530775, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/67530775" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -172,8 +186,8 @@ $dayOfWeek = date('w');
 	</div>
 	<a id="donateSection"></a>
 	<div class="someSection">
-		<h1 class="someHeading">Donate me!</h1>
-		<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=buyer&targets=&targets-hint=%D0%9D%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5&default-sum=100&button-text=13&mail=on&hint=&successURL=&quickpay=shop&account=4100115137685017" class="donation" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+		<a href="https://www.patreon.com/Qonyrau" style="color: black;"><h1 class="someHeading">Want to donate me?</h1></a>
+		<!-- <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=buyer&targets=&targets-hint=%D0%9D%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5&default-sum=100&button-text=13&mail=on&hint=&successURL=&quickpay=shop&account=4100115137685017" class="donation" frameborder="0" allowtransparency="true" scrolling="no"></iframe> -->
 	</div>
 	<footer class="footer">
 		<h1 class="footer-author">Ansar × 2020</h1>
