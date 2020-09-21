@@ -3,17 +3,13 @@ let now = new Date();
 let hour = now.getHours(), min = now.getMinutes(), sec = now.getSeconds();
 let currTime = hour * 60 + min;
 let currLess = 1;
-let flag = 0, isBreak = 0, notif = 1;
+let flag = 0, isBreak = 0, isPush = 1;
 let less = [];
 let start = [];
 let dur = 25;
 
 if (!("Notification" in window)) {
-	notif = 0;
-} else {
-	if (Notification.permission !== 'denied') {
-		Notification.requestPermission();
-	}
+	isPush = 0;
 }
 
 let weekDay = <?php echo $dayOfWeek; ?>, cntLess;
@@ -68,8 +64,7 @@ if (weekDay == 6 || weekDay == 0) {
 	 for (let  i = 1; i <= cntLess; ++i) {
 		 if (time == start[i] && !flag) {
 			 flag = 1;
-			 if (notif == 1)
-			 	let push = new Notification(less[i] + ' have started!', {icon: "icon2.png"});
+			 let push = new Notification(less[i] + ' have started!', {icon: "icon2.png"});
 		 }
 		 if (time == start[i] + dur && flag) {
 			 flag = 0;
@@ -79,13 +74,11 @@ if (weekDay == 6 || weekDay == 0) {
 				 	str = str + ' too.';
 				else
 					str = str + '.';
-					if (notif == 1)
-				 		let push = new Notification('Lesson is over', {
-					 		body: str, icon: "icon2.png"
-				 		});
+				 let push = new Notification('Lesson is over', {
+					 body: str, icon: "icon2.png"
+				 });
 			 } else {
-				 if (notif == 1)
-				 	let push = new Notification('That\'s all for today!', {icon: "icon2.png"});
+				 let push = new Notification('That\'s all for today!', {icon: "icon2.png"});
 			 }
 		 }
 	 }
