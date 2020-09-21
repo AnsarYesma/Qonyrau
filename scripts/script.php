@@ -49,15 +49,15 @@ if (weekDay == 6 || weekDay == 0) {
  			}
 		}
  	}
-	if (60 > start[1] - time && start[1] > time) {
- 		changeLesson(0);
- 		flag = 1;
- 		return;
- 	}
 	if (time >= start[cntLess] + dur) {
 		changeLesson(cntLess+1);
 		return;
 	}
+	if (start[1] > time) {
+ 		changeLesson(0);
+ 		flag = 1;
+ 		return;
+ 	}
  }
 
  function checkSchedules(time) {

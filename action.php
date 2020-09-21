@@ -63,7 +63,6 @@ $dayOfWeek = date('w');
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="stylesheets/today.css">
-	<link rel="script" type="text/javascript" href="scripts/script.php">
 	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 </head>
 
@@ -182,9 +181,10 @@ $dayOfWeek = date('w');
 		<!-- <p><a href="https://vk.com/qonyrau">Вконтакте</a> | <a href="mailto:ansar.yesmukhanov23@fizmat.kz">Почта</a> | <a href="tel:+77014414955">Телефон</a> </p> -->
 	</footer>
 	<script type="text/javascript">
-		<?php include "scripts/script.php" ?>
+	 	<?php include "scripts/script.php" ?>
 	</script>
 	<script src="scripts/timerScript.js"></script>
+	<!-- <script src="scripts/script.php" type="text/php"></script> -->
 </body>
 
 </html>
