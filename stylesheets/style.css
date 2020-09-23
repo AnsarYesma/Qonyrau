@@ -154,12 +154,6 @@ form {
 				inset -3px -3px 6px rgba(255, 255, 255, 0.7);
 }
 
-.in-shadow {
-	border-radius: 15px;
-	box-shadow:  inset 3px 3px 6px rgba(70, 70, 70, 0.12),
-				inset -3px -3px 6px rgba(255, 255, 255, 0.7);
-}
-
 button {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -268,7 +262,18 @@ input:focus {
 				inset -3px -3px 6px rgba(255, 255, 255, 0.7),
 				3px 3px 6px rgba(70, 70, 70, 0.12),
 				-3px -3px 6px rgba(255, 255, 255, 0.7);
-				
+}
+
+.out-shadow {
+	/* border-radius: 15px; */
+	box-shadow: 3px 3px 6px rgba(70, 70, 70, 0.12),
+	-3px -3px 6px rgba(255, 255, 255, 0.7);
+}
+
+.in-shadow {
+	/* border-radius: 15px; */
+	box-shadow:  inset 3px 3px 6px rgba(70, 70, 70, 0.12),
+				inset -3px -3px 6px rgba(255, 255, 255, 0.7);
 }
 
 form ::placeholder {

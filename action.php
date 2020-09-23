@@ -55,7 +55,7 @@ $dayOfWeek = date('w');
 
 <head>
 	<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
-	<title>Keste</title>
+	<title>Keste <?php echo $classid; ?></title>
 	<link rel="stylesheet" media="only screen and (min-aspect-ratio: 1/1)" href="stylesheets/desktop.css">
 	<link rel="stylesheet" media="only screen and (max-aspect-ratio: 1/1)" href="stylesheets/mobile.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
@@ -94,6 +94,30 @@ $dayOfWeek = date('w');
 		</div>
 	</a>
 	<section class="upperDiv">
+		<div class="in-shadow news">
+			<h3>News</h3>
+			<div class="in-shadow news-content">
+				<p>Dark Theme added</p>
+				<p>Today's Ansars' birthday!</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Thanks to Ibra</p>
+			</div>
+		</div>
 		<div class="today">
 			<div class="leftSide">
 				<h1 id="todayWeek" style="font-family: Yeseva One;"></h1>
@@ -110,6 +134,30 @@ $dayOfWeek = date('w');
 					echo "<p id=\"ls" . $row['lessId'] . "\">" . $row['lessName'] . "</p>\n";
 				}
 				?>
+			</div>
+		</div>
+		<div class="in-shadow news">
+			<h3>News</h3>
+			<div class="in-shadow news-content">
+				<p>Dark Theme added</p>
+				<p>Today's Ansars' birthday!</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Share button added</p>
+				<p>Thanks to Ibra</p>
 			</div>
 		</div>
 	</section>
@@ -192,6 +240,9 @@ $dayOfWeek = date('w');
 	<footer class="footer">
 		<h1 class="footer-author">Ansar × 2020</h1>
 		<p><a href="contact.html">✉️Contact</a>|<a href="help.html">❓Help</a></p>
+		<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="https://yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,whatsapp,telegram"></div>
 		<!-- <p><a href="https://vk.com/qonyrau">Вконтакте</a> | <a href="mailto:ansar.yesmukhanov23@fizmat.kz">Почта</a> | <a href="tel:+77014414955">Телефон</a> </p> -->
 	</footer>
 	<script type="text/javascript">
