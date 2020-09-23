@@ -94,7 +94,7 @@ $dayOfWeek = date('w');
 		</div>
 	</a>
 	<section class="upperDiv">
-		<div class="in-shadow news">
+		<!-- <div class="in-shadow news">
 			<h3>News</h3>
 			<div class="in-shadow news-content">
 				<p>Dark Theme added</p>
@@ -117,7 +117,7 @@ $dayOfWeek = date('w');
 				<p>Share button added</p>
 				<p>Thanks to Ibra</p>
 			</div>
-		</div>
+		</div> -->
 		<div class="today">
 			<div class="leftSide">
 				<h1 id="todayWeek" style="font-family: Yeseva One;"></h1>
@@ -136,7 +136,7 @@ $dayOfWeek = date('w');
 				?>
 			</div>
 		</div>
-		<div class="in-shadow news">
+		<!-- <div class="in-shadow news">
 			<h3>News</h3>
 			<div class="in-shadow news-content">
 				<p>Dark Theme added</p>
@@ -159,7 +159,7 @@ $dayOfWeek = date('w');
 				<p>Share button added</p>
 				<p>Thanks to Ibra</p>
 			</div>
-		</div>
+		</div> -->
 	</section>
 	<div>
 		<a id="fullSchedule"></a>
