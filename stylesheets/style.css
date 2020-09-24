@@ -281,14 +281,14 @@ form ::placeholder {
 }
 
 @font-face {
-	font-family: "Avenir-Black";
-	src: url('https://qonyrau.kz/Avenir-Black.ttf');
+	font-family: Avenir-Black;
+	src: url('resources/Avenir-Black.ttf');
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
-	font-family: "Futura-Medium";
+	font-family: Futura-Medium;
 	src: url('FuturaMediumC.eot');
 	src: url('FuturaMediumC.eot?#iefix') format('embedded-opentype'),
 	url('FuturaMediumC.woff') format('woff'),
