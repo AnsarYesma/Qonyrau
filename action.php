@@ -59,7 +59,7 @@ $dayOfWeek = date('w');
 	<link rel="stylesheet" media="only screen and (min-aspect-ratio: 1/1)" href="stylesheets/desktop.css">
 	<link rel="stylesheet" media="only screen and (max-aspect-ratio: 1/1)" href="stylesheets/mobile.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
-	<link rel="shortcut icon" href="icon2.png" type="image/png">
+	<link rel="shortcut icon" href="resources/icon2.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="stylesheets/today.css">
@@ -89,7 +89,7 @@ $dayOfWeek = date('w');
 	</header>
 	<a href="https://vk.com/nphmsdebateclub" target="_blank">
 		<div class="headerMenu">
-			<img src="debate.png" style="display: inline; margin-right: 1vh; height: 7.5vh; width: 7.5vh;">
+			<img src="resources/debate.png" style="display: inline; margin-right: 1vh; height: 7.5vh; width: 7.5vh;">
 			<span>Join Fizmat Speech & Debate Club!</span>
 		</div>
 	</a>
@@ -237,6 +237,7 @@ $dayOfWeek = date('w');
 		<a href="https://www.patreon.com/Qonyrau" style="color: black;"><h1 class="someHeading">Want to donate me?</h1></a>
 		<!-- <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=buyer&targets=&targets-hint=%D0%9D%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5&default-sum=100&button-text=13&mail=on&hint=&successURL=&quickpay=shop&account=4100115137685017" class="donation" frameborder="0" allowtransparency="true" scrolling="no"></iframe> -->
 	</div>
+	<p style="font-family: Pompadur, 'Comic Sans MS', cursive;"> Fuck fuck fuck shit gaylord</p>
 	<footer class="footer">
 		<h1 class="footer-author">Ansar × 2020</h1>
 		<p><a href="contact.html">✉️Contact</a>|<a href="help.html">❓Help</a></p>

@@ -282,10 +282,16 @@ form ::placeholder {
 
 @font-face {
 	font-family: Avenir-Black;
-	src: url('resources/Avenir-Black.ttf');
+	src: url('https://qonyrau.kz/resources/Avenir-Black.ttf');
 	font-style: normal;
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: Pompadur;
+	src: url('https://qonyrau.kz/resources/ofont.ru_Pompadur.ttf');
+}
+
 
 @font-face {
 	font-family: Futura-Medium;
