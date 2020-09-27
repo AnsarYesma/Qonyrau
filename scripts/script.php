@@ -21,21 +21,27 @@ if (weekDay == 6 || weekDay == 0) {
 
 <?php
 	include "connect.php";
-	 if ($dayOfWeek != 6 && $dayOfWeek != 0) {
-		 $query = mysqli_query($conn, "select * from keste where className = '".$classid."' and weekDay = ". $dayOfWeek .";");
-		 $i = 0;
-		 while ($row = mysqli_fetch_array($query)) {
-			 $i++;
-			 $row['lessName'] = substr($row['lessName'], 0, -1);
-			 echo "less[". $i ."] = \"". $row['lessName'] ."\"; \n";
-		 }
-		 echo "cntLess = ". $i ."; \n";
-		 for ($j = 1; $j <= $i; ++$j) {
-			 echo 'start['.$j.']='.$timetable[$j].';
-	 ';
-	 }
- }
- ?>
+	if ($dayOfWeek != 6 && $dayOfWeek != 0) {
+		$query = mysqli_query($conn, "select * from keste where className = '".$classid."' and weekDay = ". $dayOfWeek .";");
+		$i = 0;
+		while ($row = mysqli_fetch_array($query)) {
+			$i++;
+			$row['lessName'] = substr($row['lessName'], 0, -1);
+			echo "less[". $i ."] = \"". $row['lessName'] ."\"; \n";
+		}
+		echo "cntLess = ". $i ."; \n";
+		for ($j = 1; $j <= $i; ++$j) {
+			echo 'start['.$j.']='.$timetable[$j]. "; \n";
+ 		}
+		$query = mysqli_query($conn, "select * from meet where className = '". $classid ."';");
+		while ($row = mysqli_fetch_array($query)) {
+			$row['lessName'] = substr($row['lessName'], 0, -1);
+			$row['meetLink'] = substr($row['meetLink'], 0, -1);
+			echo "meet['". $row['lessName'] ."'] = \"". $row['meetLink'] ."\"; \n";
+		}
+	}
+
+?>
 
  start[0] = 0;
 
@@ -106,12 +112,13 @@ if (weekDay == 6 || weekDay == 0) {
  	else
  		document.getElementById("ls"+currLess).style.color = "rgb(188,0,22)";
  	document.getElementById("ls"+currLess).style.fontSize = "150%";
+	document.getElementById("meet").innerHTML = "<a href='https://meet.google.com/" + meet[less[currLess]] + "'>Meet</a>";
  }
 
 function goto(id) {
 	document.getElementById(id).scrollIntoView({
 		behavior: 'smooth'
-	})
+	});
 }
 
 function setTimer(time) {
