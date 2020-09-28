@@ -29,8 +29,8 @@ $timetable[7] = 800;
 $timetable[8] = 835;
 $timetable[9] = 870;
 
-$dayOfWeek = 1;
-// $dayOfWeek = date('w');
+// $dayOfWeek = 1;
+$dayOfWeek = date('w');
 
 // for ( $i = 1; $i <= 5; $i++ ) {
 // 	$lessCnt[$i] = fgets($myRead);
@@ -126,7 +126,7 @@ $dayOfWeek = 1;
 				<button type="button" onclick="goto('fullSchedule')">
 					Schedule
 				</button>
-				<span id="meet"></span>
+				<span id="meet"><a href="google.com">Meet</a></span>
 			</div>
 			<div id="lineToday"></div>
 			<div class="rightSide" id="rs">

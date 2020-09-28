@@ -30,7 +30,6 @@
     $query = mysqli_query($conn, "insert meet(className, lessName, meetLink) values('" . $classid . "', '" . $lsName . "', '" . $lsCode . "');" );
 
   }
-  // header ('Location: action.php?class='.$classid .'');
-  // exit();
-  // fclose($myread);
+  header ('Location: action.php?class='.$classid .'');
+  exit();
 ?>

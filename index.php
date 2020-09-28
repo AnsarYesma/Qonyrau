@@ -27,11 +27,11 @@
 <body>
 	<section class="centerFlex">
 		<form action="action.php" method="get">
-			<p style='font-size: 50px; width: 300px; text-align: center; font-family: "Avenir Black"; background: linear-gradient(30deg, rgb(188, 0, 22), #6259c2 60%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Qonyrau</p>
+			<p style='font-size: 50px; width: 400px; text-align: center; font-family: "Avenir Black"; background: linear-gradient(30deg, rgb(188, 0, 22), #6259c2 60%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Qonyrau</p>
 			<br>
 			Enter your class number:
-			<input style="font-size: 30px; height: 50px; width: 300px; margin: 30px 0;" type="text" id="classNameInput" name="class" placeholder="Number & lowercase letter. Like 9c, 11g">
-			<button type="submit" style="font-size: 20px; height: 30px; margin: 15px 0; width: 300px; border-radius: 15px;">Go</button>
+			<input style="font-size: 30px; height: 50px; width: 400px; margin: 30px 0;" type="text" id="classNameInput" name="class" placeholder="Number & lowercase letter. Like 9c, 11g">
+			<button type="submit" style="font-size: 20px; height: 30px; margin: 15px 0; width: 400px; border-radius: 15px;">Go</button>
       <p style="margin-bottom: 15px;"><a href="help.html">Help</a></p>
 		</form>
 	</section>
