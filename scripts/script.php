@@ -112,7 +112,7 @@ if (weekDay == 6 || weekDay == 0) {
  	else
  		document.getElementById("ls"+currLess).style.color = "rgb(188,0,22)";
  	document.getElementById("ls"+currLess).style.fontSize = "150%";
-	document.getElementById("meet").innerHTML = "<a href='https://meet.google.com/lookup/" + meet[less[currLess]] + "'>Meet</a>";
+	document.getElementById("meet").innerHTML = "<a target="_blank" href='https://meet.google.com/lookup/" + meet[less[currLess]] + "'>Meet</a>";
  }
 
 function goto(id) {
