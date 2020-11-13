@@ -2,10 +2,10 @@
 <head>
 	<title>Keste</title>
   <link rel="stylesheet" href="stylesheets/style.css">
-	<link rel="stylesheet" href="stylesheets/lightmode.css">
-  <link rel="stylesheet" href="stylesheets/today.css">
-  <link rel="stylesheet" href="stylesheets/head.css">
-	<link rel="script" type="text/javascript" href="scripts/script.php">
+	<!-- <link rel="stylesheet" href="stylesheets/lightmode.css"> -->
+  <!-- <link rel="stylesheet" href="stylesheets/today.css"> -->
+  <!-- <link rel="stylesheet" href="stylesheets/head.css"> -->
+	<!-- <link rel="script" type="text/javascript" href="scripts/script.php"> -->
 	<link rel="shortcut icon" href="icon2.png">
   <!-- <link rel="icon" type="image" href="images/interface.png"> -->
 	<!-- Yandex.Metrika counter -->

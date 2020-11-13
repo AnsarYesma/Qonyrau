@@ -2,7 +2,7 @@
 include "connect.php";
 $classid = $_GET['class'];
 // $schoolname = $_GET['school'];
-$query = mysqli_query($conn, "select * from keste where className = '" . $classid . "'");
+$query = mysqli_query($conn, "SELECT * FROM keste WHERE className = '" . $classid . "';");
 $row = mysqli_fetch_array($query);
 if (empty($row)) {
 	header('Location: create.php?name=' . $classid . '');
